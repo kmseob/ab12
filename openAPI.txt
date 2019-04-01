@@ -1,0 +1,31 @@
+
+# 필요한 라이브러리
+library(RCurl)
+library(XML)
+
+# 네이버 뉴스 / 블로그 검색 결과 반환 요청 URL
+newsUrl <- "https://openapi.naver.com/v1/search/news.xml"
+blogUrl <- "https://openapi.naver.com/v1/search/blog.xml"
+
+#비 로그인 방식 오픈 API id와 secret
+client_id <- "Wzr7jH5LTIQfDMw5lcBY"
+client_secret <- "C2InRfPf0z"
+
+#쿼리
+query <- URLencode(iconv("빅데이터","euc-kr", "UTF-8"))
+url <- paste(newsUrl, "?query=",query,"&display=100",sep = "")
+
+
+doc <- getURL(url,
+              httpheader = c('Content-Type' = 'application/xml',
+                             'X-Naver-Client-Id'=client_id,
+                             'X-Naver-Client-Secret'=client_secret)
+              )
+
+doc
+
+doc1 <- htmlParse(doc, encoding = "UTF-8")
+doc1
+
+text <- xpathApply(doc1, "//item/description", xmlValue)
+text
