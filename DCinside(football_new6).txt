@@ -6,7 +6,6 @@ i <- 1
 for(i in 1:10){
   
   url='https://gall.dcinside.com/board/lists/?id=football_new6&list_num=100&sort_type=N&search_head=&page='   
-  
   base_url <- paste0(url,i,sep='')
   
   # 게시글 제목 가져오기
