@@ -1,0 +1,40 @@
+library(stringr)
+
+final <- NULL
+i <- 1
+
+for(i in 1:10){
+  
+  url='https://gall.dcinside.com/board/lists/?id=football_new6&list_num=100&sort_type=N&search_head=&page='   
+  
+  base_url <- paste0(url,i,sep='')
+  
+  # 게시글 제목 가져오기
+  b <- readLines(base_url, encoding = 'UTF-8')
+  b2 <- b[str_detect(b,"icon_img icon_txt")]
+  게시글_제목 <- str_extract(b2, "(?<=</em>).*(?=</a>)")
+  
+  # 게시글 작성자의 닉네임 가져오기
+  mm <- b[which(str_detect(b,"icon_img icon_txt"))+3]
+  닉네임 <- str_extract(mm, "(?<=data-nick=).*(?=data-uid)")
+  
+  # 게시글 작성자가 유동일 경우 ip 가져오기
+  qq <- b[which(str_detect(b, "icon_img icon_txt"))+3]
+  유동닉ip <- str_extract(qq, "(?<=data-ip=).*(?=data-loc)")
+  
+  # 게시글 작성시간
+  rr <- b[which(str_detect(b, "icon_img icon_txt"))+5]
+  작성시간 <- str_extract(rr, "(?<=title=).*(?=</td>)")
+  
+  # 게시글제목, 닉네임, ip, 작성시간을 표로 만들기
+  data <- cbind(게시글_제목, 닉네임, 유동닉ip, 작성시간)
+  final <- rbind(final, data)
+}
+
+
+
+final
+df <- data.frame(final)
+
+# csv 파일로 저장
+write.csv(df, file="df.csv", row.names = FALSE)
