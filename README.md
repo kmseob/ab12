@@ -31,5 +31,6 @@
 2. 모든 갤러리의 당일 데이터를 모두 수집하여 저장한다. ex) gall-"갤러리명"-"오늘 날짜".csv
 
 3. taskscheduler 패키지를 활용하여 매일 매일 데이터를 수집한다.
+![sdfsdfsdfs](https://user-images.githubusercontent.com/49008643/57388683-ac1bb780-71f3-11e9-922b-8495d0f4c593.JPG)
 
 
