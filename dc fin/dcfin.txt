@@ -91,7 +91,7 @@ for (k in v){
   ras9889 <- data.frame(ras1000)
   
   #today mm/dd
-  ddaattee <- format(Sys.Date(), "%m/%d")
+  ddaattee <- format(Sys.Date()-1, "%m/%d")
   ras9999 <- subset(ras9889, ras9889$dc_date == ddaattee)
   
   #gallery data
