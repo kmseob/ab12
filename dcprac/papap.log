@@ -1,0 +1,36 @@
+Warning message:
+package 'stringr' was built under R version 3.4.4 
+Loading required package: xml2
+Warning messages:
+1: package 'rvest' was built under R version 3.4.4 
+2: package 'xml2' was built under R version 3.4.4 
+Warning message:
+package 'taskscheduleR' was built under R version 3.4.4 
+
+Attaching package: 'rlang'
+
+The following object is masked from 'package:xml2':
+
+    as_list
+
+Warning message:
+package 'rlang' was built under R version 3.4.4 
+Warning message:
+package 'stringr' was built under R version 3.4.4 
+Loading required package: xml2
+Warning messages:
+1: package 'rvest' was built under R version 3.4.4 
+2: package 'xml2' was built under R version 3.4.4 
+Warning message:
+package 'taskscheduleR' was built under R version 3.4.4 
+
+Attaching package: 'rlang'
+
+The following object is masked from 'package:xml2':
+
+    as_list
+
+Warning message:
+package 'rlang' was built under R version 3.4.4 
+Fatal error: cannot open file 'D:/papap.R': No such file or directory
+

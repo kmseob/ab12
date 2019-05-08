@@ -1,0 +1,11 @@
+library(taskscheduleR)
+
+## file path
+DC_data <- file.path("D:", "papap.R")
+
+## Run every hourly
+taskscheduler_create(taskname = "DC_data00", rscript = DC_data, 
+                     schedule = "HOURLY", starttime = "06:40", startdate = format(Sys.Date(), "%Y/%m/%d"))
+
+## delete
+taskscheduler_delete(taskname = "DC_data00")
