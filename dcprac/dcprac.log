@@ -1,0 +1,242 @@
+Warning message:
+package 'taskscheduleR' was built under R version 3.4.4 
+Warning message:
+package 'rlang' was built under R version 3.4.4 
+Warning message:
+package 'RSelenium' was built under R version 3.4.4 
+Loading required package: xml2
+
+Attaching package: 'xml2'
+
+The following object is masked from 'package:rlang':
+
+    as_list
+
+Warning messages:
+1: package 'rvest' was built under R version 3.4.4 
+2: package 'xml2' was built under R version 3.4.4 
+[1] "Connecting to remote server"
+$mobileEmulationEnabled
+[1] FALSE
+
+$timeouts
+$timeouts$implicit
+[1] 0
+
+$timeouts$pageLoad
+[1] 300000
+
+$timeouts$script
+[1] 30000
+
+
+$hasTouchScreen
+[1] FALSE
+
+$platform
+[1] "Windows NT"
+
+$acceptSslCerts
+[1] FALSE
+
+$`goog:chromeOptions`
+$`goog:chromeOptions`$debuggerAddress
+[1] "localhost:13518"
+
+
+$acceptInsecureCerts
+[1] FALSE
+
+$webStorageEnabled
+[1] TRUE
+
+$browserName
+[1] "chrome"
+
+$takesScreenshot
+[1] TRUE
+
+$javascriptEnabled
+[1] TRUE
+
+$setWindowRect
+[1] TRUE
+
+$unexpectedAlertBehaviour
+[1] "ignore"
+
+$applicationCacheEnabled
+[1] FALSE
+
+$rotatable
+[1] FALSE
+
+$networkConnectionEnabled
+[1] FALSE
+
+$chrome
+$chrome$chromedriverVersion
+[1] "74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})"
+
+$chrome$userDataDir
+[1] "C:\\Users\\MY\\AppData\\Local\\Temp\\scoped_dir12600_10422"
+
+
+$takesHeapSnapshot
+[1] TRUE
+
+$pageLoadStrategy
+[1] "normal"
+
+$strictFileInteractability
+[1] FALSE
+
+$databaseEnabled
+[1] FALSE
+
+$handlesAlerts
+[1] TRUE
+
+$version
+[1] "74.0.3729.131"
+
+$browserConnectionEnabled
+[1] FALSE
+
+$proxy
+named list()
+
+$nativeEvents
+[1] TRUE
+
+$locationContextEnabled
+[1] TRUE
+
+$cssSelectorsEnabled
+[1] TRUE
+
+$id
+[1] "2ddce4ce9bb67ac57f3371883a329755"
+
+Error in assign(paste0("ooo", k), ras9999) : object 'ras9999' not found
+Execution halted
+Warning message:
+package 'taskscheduleR' was built under R version 3.4.4 
+Warning message:
+package 'rlang' was built under R version 3.4.4 
+Warning message:
+package 'RSelenium' was built under R version 3.4.4 
+Loading required package: xml2
+
+Attaching package: 'xml2'
+
+The following object is masked from 'package:rlang':
+
+    as_list
+
+Warning messages:
+1: package 'rvest' was built under R version 3.4.4 
+2: package 'xml2' was built under R version 3.4.4 
+[1] "Connecting to remote server"
+$mobileEmulationEnabled
+[1] FALSE
+
+$timeouts
+$timeouts$implicit
+[1] 0
+
+$timeouts$pageLoad
+[1] 300000
+
+$timeouts$script
+[1] 30000
+
+
+$hasTouchScreen
+[1] FALSE
+
+$platform
+[1] "Windows NT"
+
+$acceptSslCerts
+[1] FALSE
+
+$`goog:chromeOptions`
+$`goog:chromeOptions`$debuggerAddress
+[1] "localhost:13972"
+
+
+$acceptInsecureCerts
+[1] FALSE
+
+$webStorageEnabled
+[1] TRUE
+
+$browserName
+[1] "chrome"
+
+$takesScreenshot
+[1] TRUE
+
+$javascriptEnabled
+[1] TRUE
+
+$setWindowRect
+[1] TRUE
+
+$unexpectedAlertBehaviour
+[1] "ignore"
+
+$applicationCacheEnabled
+[1] FALSE
+
+$rotatable
+[1] FALSE
+
+$networkConnectionEnabled
+[1] FALSE
+
+$chrome
+$chrome$chromedriverVersion
+[1] "74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})"
+
+$chrome$userDataDir
+[1] "C:\\Users\\MY\\AppData\\Local\\Temp\\scoped_dir9072_26461"
+
+
+$takesHeapSnapshot
+[1] TRUE
+
+$pageLoadStrategy
+[1] "normal"
+
+$strictFileInteractability
+[1] FALSE
+
+$databaseEnabled
+[1] FALSE
+
+$handlesAlerts
+[1] TRUE
+
+$version
+[1] "74.0.3729.131"
+
+$browserConnectionEnabled
+[1] FALSE
+
+$proxy
+named list()
+
+$nativeEvents
+[1] TRUE
+
+$locationContextEnabled
+[1] TRUE
+
+$cssSelectorsEnabled
+[1] TRUE
+
+$id
+[1] "140b440b38f91b3b0b39bf9e64cef469"
+
