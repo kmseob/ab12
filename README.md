@@ -47,6 +47,6 @@
 3. 연결정도 중심성을 바탕으로 네트워크 시각화 결과
 
 [코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/text%20mining%20(Practice)/KoNLP%26wordcloud2.R)
-[결과]https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/text%20mining%20(Practice)/twice/wordcloud/5_18
+[결과](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/text%20mining%20(Practice)/twice/wordcloud/5_18)
 
 4. TF- DI(Term Frequency - Date Index)를 활용한 미래의 트랜드를 분석
