@@ -40,5 +40,6 @@
 1. 데이터를 통해 특정 날에 대한 사람들의 관심사 및 갤러리에서 주된 관심사의 트렌드를 알아 보고자 합니다.
 
 2. 빈도 분석
+https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/text%20mining%20(Practice)/KoNLP%26wordcloud2.R
 3. 연결정도 중심성을 바탕으로 네트워크 시각화 결과
 4. TF- DI(Term Frequency - Date Index)를 활용한 미래의 트랜드를 분석
