@@ -52,3 +52,7 @@
 [결과](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/text%20mining%20(Practice)/twice/wordcloud/5_19)
 
 4. TF- DI(Term Frequency - Date Index)를 활용한 미래의 트랜드를 분석
+
+
+##############빈도수(비율에 대해서 생각해보기)
+분석을 활용한 결과 조금 더 
