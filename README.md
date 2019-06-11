@@ -42,13 +42,11 @@
 2. 빈도 분석  
 
 [코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/text%20mining%20(Practice)/KoNLP%26wordcloud2.R)  
-
 [결과](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/text%20mining%20(Practice)/twice/frequency%20csv)
 
 3. 연결정도 중심성을 바탕으로 네트워크 시각화 결과
 
 [코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/text%20mining%20(Practice)/KoNLP%26wordcloud2.R)  
-
 [결과](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/text%20mining%20(Practice)/twice/wordcloud/5_19)
 
 4. TF- DI(Term Frequency - Date Index)를 활용한 미래의 트랜드를 분석
@@ -60,11 +58,12 @@ read.me 에 조금 더 자세하게 적을 것
 텍스트마인이 그림그릶나한 다른 툴을 찾아봐라
 
 
-##기말발표까지 준비할 것
+##최종까지 준비할 것
 
 1. 문서도 중요하지만 데이터가 더 중요
+1. 데이터 파일 저장한거 정리 한번 하기
 1. 모든 갤러리 분석하기 너무 많으니까 하나 혹은 두개 정도 정해서 분석 진행
 2. 연관 분석
 2. 저장한 데이터에서 최다 빈도 단어 추출 > 키워드들로 간단한 트렌드 그래프그리기(등장 횟수, 빈도)
 3. TF-DI 활용하여 점수 중요도 계산하기
-4. 
+4. ? 분석결과까지
