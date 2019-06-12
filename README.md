@@ -32,7 +32,7 @@
         
 ***꾸준히 모아온 데이터가 대부분 텍스트 위주로 구성되어 있기 때문에 텍스트 마이닝을 활용해서 분석을 시도***
 
-## [분석 방법](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R)과 결과
+## [분석 방법](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R)과 결과 (축구 갤러리)
 
 ### 1. 빈도수
  
@@ -99,7 +99,7 @@ ex) '5/20-손흥민'의 중요도를 알고 싶다.
     그리고 추가로 최근 날짜에 가까워질수록 가중치가 커지기 때문에 최근 트렌드를 반영한
     중요도라고 할 수 있습니다. 
                 
-## 분석 결과 활용             
+## 분석 결과 활용(자동화X)             
          
 - 네이버 open api를 활용하여 뉴스 검색        
            
@@ -114,10 +114,14 @@ ex) '5/20-손흥민'의 중요도를 알고 싶다.
          
   [r에서 자동으로 메일 보내기_코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/NAVERNEWS_API%20%26%20Send%20email.R)               
      
-     
-![222](https://user-images.githubusercontent.com/49008643/59378596-a59ed380-8d8f-11e9-9469-9e4e0a8deddd.JPG)
+![222](https://user-images.githubusercontent.com/49008643/59378596-a59ed380-8d8f-11e9-9469-9e4e0a8deddd.JPG)    
+    
+   
+## 짧은 소감
 
+모르는게 많아 어려운 학기였지만, 그래서 공부를 많이하게 되었고 뒤돌아 보니 남은게 많은 것 같습니다.
+내가 데이터를 만들고, 그걸 분석하고 있으니 뭐라도 된 것 같아서 재밌게 했습니다.
+큰 일이 있지 않는 이상 종강 후에도 계속 하려고 생각하고 있습니다.
 
-## 느낀점
-
+지금까지 DC INSIDE 데이터 수집과 분석까지의 과정을 봐주셔서 감사합니다!
 
