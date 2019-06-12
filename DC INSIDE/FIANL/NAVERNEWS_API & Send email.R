@@ -10,7 +10,7 @@ client_id <- "Wzr7jH5LTIQfDMw5lcBY"
 client_secret <- "C2InRfPf0z"
 
 # 뉴스에서 빅데이터 단어 검색
-query <- URLencode(iconv("트와이스","euc-kr", "UTF-8"))
+query <- URLencode(iconv("이강인","euc-kr", "UTF-8"))
 url <- paste(newsUrl, "?query=",query,"&display=100",sep = "")
 
 
@@ -34,6 +34,7 @@ library(sendgridr)
 auth_set()
 
 #set working directory
+setwd("C:/Users/MY/Desktop/명섭/github/DC INSIDE/FIANL/news_send_email")
 
 # send mail
 mail() %>% 
@@ -43,4 +44,9 @@ mail() %>%
   content("DCinside gallery")  %>% 
   ## attachments is optional
   attachments("DC_news.csv") %>% 
+  attachments("TF-DI.csv") %>% 
+  attachments("graph.JPG") %>% 
+  attachments("network.JPG") %>% 
   send()
+
+#,"graph.JPG","network.JPG","TF-DI.csv"

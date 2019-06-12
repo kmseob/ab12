@@ -19,26 +19,7 @@ useNIADic()
 #################### convert csv file to txt file
 
 setwd("D:/12313/abcabc")
-datasett <- read.csv("gall__football_new6__05-18.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-19.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-20.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-21.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-24.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-27.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-28.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-29.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-30.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__05-31.csv", header = TRUE)
 datasett <- read.csv("gall__football_new6__06-01.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-02.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-04.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-05.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-06.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-07.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-08.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-09.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-10.csv", header = TRUE)
-datasett <- read.csv("gall__football_new6__06-11.csv", header = TRUE)
 
 
 datasett <- datasett[,1]
