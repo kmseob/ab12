@@ -26,13 +26,13 @@
 ## 데이터
 
 [데이터]() 수집 기간 : 5월 18일 ~ 6월 11일 총 25일 간          
-전체 파일 크기 : 82.1mb            
+전체 파일 크기 : 82.1MB                
 갤러리 : 70개의 갤러리          
 가져온 정보 : 게시글 제목 / 작성자 / 작성자의 IP / 날짜                
         
 ***꾸준히 모아온 데이터가 대부분 텍스트 위주로 구성되어 있기 때문에 텍스트 마이닝을 활용해서 분석을 시도***
 
-## 분석 방법과 결과
+## [분석 방법](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R)과 결과
 
 ### 1. 빈도 분석  
  
@@ -45,47 +45,23 @@
    
  ![56643353](https://user-images.githubusercontent.com/49008643/59383497-f5cf6300-8d9a-11e9-891f-896746c8a5fe.JPG)           
            
-               
-            
 - 절대적 빈도수 비교 곡선 - 가장 많이 등장한 단어를 선택하여 빈도수             
               
 ![graph](https://user-images.githubusercontent.com/49008643/59378651-c6672900-8d8f-11e9-8f82-84aad028ace0.JPG)           
              
-              
-            
-             
-              
-             
-               
- 
+
 ### 2. 연결정도 중심성을 바탕으로 네트워크 시각화           
-            
--[코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R)           
-               
-          
-             
-             
+        
 -네트워크 시각화             
- 
- 
+        
 ![22222222](https://user-images.githubusercontent.com/49008643/59378838-3ecdea00-8d90-11e9-98c6-093b71612076.JPG)           
-           
-        
-        
-        
-        
-        
-        
-        
+                 
+          
 -바이그램을 활용             
                 
 ![111111111](https://user-images.githubusercontent.com/49008643/59378862-48575200-8d90-11e9-8003-2cb683b68b27.JPG)           
  
-                 
-           
-           
-           
-
+             
 ### 3. TF-DI(Term Frequency - Date Index)를 활용한 트렌드 분석과 키워드의 중요도             
             
 - TF-DI 계산방법          
