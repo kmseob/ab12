@@ -99,14 +99,17 @@
 - 네이버 open api를 활용하여 뉴스 검색        
            
    [최근 100개의 뉴스를 검색하여 저장!](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/NAVERNEWS_API%20%26%20Send%20email.R)                 
-- 검색 결과      
+- 뉴스 검색 결과      
      
-    
-[이강인 선수에 대한 검색 결과]()
+  [이강인 선수에 대한 검색 결과](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/news_send_email/DC_news.csv)
 
 
 
-- 결과를 메일로 받기
+- 결과를 메일로 받기    
+         
+  [r에서 자동으로 메일 보내기](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/NAVERNEWS_API%20%26%20Send%20email.R)               
+     
+     
 ![222](https://user-images.githubusercontent.com/49008643/59378596-a59ed380-8d8f-11e9-9469-9e4e0a8deddd.JPG)
 
 
