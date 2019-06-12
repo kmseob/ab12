@@ -34,19 +34,18 @@
 
 ## 분석 방법과 결과
 
-1. 빈도 분석  
+#### 1. 빈도 분석  
  
 - 빈도수를 csv 파일로 저장 
  
 [빈도수 파일 저장 리스트](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/FIANL/final%20test%20data(%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC)/1%EB%B9%88%EB%8F%84%EB%B6%84%EC%84%9D) 
 
+
+- 빈도 표
  
+ ![56643353](https://user-images.githubusercontent.com/49008643/59383497-f5cf6300-8d9a-11e9-891f-896746c8a5fe.JPG)
+
   
-  
-- [빈도 표](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/final%20test%20data(%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC)/1%EB%B9%88%EB%8F%84%EB%B6%84%EC%84%9D/table.csv#L1)
- 
- 
- 
  
 - 절대적 빈도수 비교 곡선 - 가장 많이 등장한 단어를 선택하여 빈도수
  
@@ -59,7 +58,7 @@
  
  
  
-2. 연결정도 중심성을 바탕으로 네트워크 시각화 
+#### 2. 연결정도 중심성을 바탕으로 네트워크 시각화 
 
 -[코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R) 
  
@@ -85,7 +84,7 @@
  
  
  
-3. TF-DI를 활용한 트렌드 분석과 키워드의 중요도
+#### 3. TF-DI를 활용한 트렌드 분석과 키워드의 중요도
  
 - TF-DI 계산방법 
  
