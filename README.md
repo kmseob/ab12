@@ -34,7 +34,7 @@
 
 ## [분석 방법](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R)과 결과
 
-### 1. 빈도 분석  
+### 1. 빈도수
  
 - 빈도수를 csv 파일로 저장 
  
