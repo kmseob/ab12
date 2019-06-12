@@ -40,31 +40,48 @@
  
 [빈도수 파일 저장 리스트](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/FIANL/final%20test%20data(%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC)/1%EB%B9%88%EB%8F%84%EB%B6%84%EC%84%9D) 
 
-- 빈도 표
  
-손흥민 | 123 | 123 | 123
-------------------------
-메시 | 123 | 23|1222
-
-
+  
+  
+- [빈도 표](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/final%20test%20data(%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC)/1%EB%B9%88%EB%8F%84%EB%B6%84%EC%84%9D/table.csv#L1)
+ 
+ 
+ 
  
 - 절대적 빈도수 비교 곡선 - 가장 많이 등장한 단어를 선택하여 빈도수
  
 ![graph](https://user-images.githubusercontent.com/49008643/59378651-c6672900-8d8f-11e9-8f82-84aad028ace0.JPG) 
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 2. 연결정도 중심성을 바탕으로 네트워크 시각화 
 
 -[코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R) 
  
+ 
+ 
+ 
 -네트워크 시각화 
  
+ 
 ![22222222](https://user-images.githubusercontent.com/49008643/59378838-3ecdea00-8d90-11e9-98c6-093b71612076.JPG) 
+
+
 
 
 
 -바이그램을 활용 
  
 ![111111111](https://user-images.githubusercontent.com/49008643/59378862-48575200-8d90-11e9-8003-2cb683b68b27.JPG) 
+ 
+ 
+ 
+ 
  
  
  
