@@ -25,76 +25,86 @@
 
 ## 데이터
 
-[데이터]() 수집 기간 : 5월 18일 ~ 6월 11일 총 25일 간 
-전체 파일 크기 : 82.1mb 
-갤러리 : 70개의 갤러리 
-가져온 정보 : 게시글 제목 / 작성자 / 작성자의 IP / 날짜 
-
+[데이터]() 수집 기간 : 5월 18일 ~ 6월 11일 총 25일 간          
+전체 파일 크기 : 82.1mb            
+갤러리 : 70개의 갤러리          
+가져온 정보 : 게시글 제목 / 작성자 / 작성자의 IP / 날짜                
+        
 ***꾸준히 모아온 데이터가 대부분 텍스트 위주로 구성되어 있기 때문에 텍스트 마이닝을 활용해서 분석을 시도***
 
 ## 분석 방법과 결과
 
-#### 1. 빈도 분석  
+### 1. 빈도 분석  
  
 - 빈도수를 csv 파일로 저장 
  
-[빈도수 파일 저장 리스트](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/FIANL/final%20test%20data(%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC)/1%EB%B9%88%EB%8F%84%EB%B6%84%EC%84%9D) 
+[빈도수 파일 저장 리스트](https://github.com/kmseob/ab12/tree/master/DC%20INSIDE/FIANL/final%20test%20data(%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC)/1%EB%B9%88%EB%8F%84%EB%B6%84%EC%84%9D)      
 
 
-- 빈도 표
+- 빈도 표                   
+   
+ ![56643353](https://user-images.githubusercontent.com/49008643/59383497-f5cf6300-8d9a-11e9-891f-896746c8a5fe.JPG)           
+           
+               
+            
+- 절대적 빈도수 비교 곡선 - 가장 많이 등장한 단어를 선택하여 빈도수             
+              
+![graph](https://user-images.githubusercontent.com/49008643/59378651-c6672900-8d8f-11e9-8f82-84aad028ace0.JPG)           
+             
+              
+            
+             
+              
+             
+               
  
- ![56643353](https://user-images.githubusercontent.com/49008643/59383497-f5cf6300-8d9a-11e9-891f-896746c8a5fe.JPG)
+### 2. 연결정도 중심성을 바탕으로 네트워크 시각화           
+            
+-[코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R)           
+               
+          
+             
+             
+-네트워크 시각화             
+ 
+ 
+![22222222](https://user-images.githubusercontent.com/49008643/59378838-3ecdea00-8d90-11e9-98c6-093b71612076.JPG)           
+           
+        
+        
+        
+        
+        
+        
+        
+-바이그램을 활용             
+                
+![111111111](https://user-images.githubusercontent.com/49008643/59378862-48575200-8d90-11e9-8003-2cb683b68b27.JPG)           
+ 
+                 
+           
+           
+           
 
-  
- 
-- 절대적 빈도수 비교 곡선 - 가장 많이 등장한 단어를 선택하여 빈도수
- 
-![graph](https://user-images.githubusercontent.com/49008643/59378651-c6672900-8d8f-11e9-8f82-84aad028ace0.JPG) 
- 
- 
- 
- 
- 
- 
- 
- 
-#### 2. 연결정도 중심성을 바탕으로 네트워크 시각화 
-
--[코드](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/KoNLP%26wordcloud2.R) 
- 
- 
- 
- 
--네트워크 시각화 
- 
- 
-![22222222](https://user-images.githubusercontent.com/49008643/59378838-3ecdea00-8d90-11e9-98c6-093b71612076.JPG) 
+### 3. TF-DI를 활용한 트렌드 분석과 키워드의 중요도             
+            
+- TF-DI 계산방법          
+                 
+![12](https://user-images.githubusercontent.com/49008643/59378580-9b7cd500-8d8f-11e9-94cc-6b53cfc82d9e.JPG)            
+               
+              
+                
+## 분석 결과 활용             
+         
+- 네이버 open api를 활용하여 뉴스 검색        
+           
+   [최근 100개의 뉴스를 검색하여 저장!](https://github.com/kmseob/ab12/blob/master/DC%20INSIDE/FIANL/NAVERNEWS_API%20%26%20Send%20email.R)                 
+- 검색 결과      
+     
+    
+[이강인 선수에 대한 검색 결과]()
 
 
-
-
-
--바이그램을 활용 
- 
-![111111111](https://user-images.githubusercontent.com/49008643/59378862-48575200-8d90-11e9-8003-2cb683b68b27.JPG) 
- 
- 
- 
- 
- 
- 
- 
-#### 3. TF-DI를 활용한 트렌드 분석과 키워드의 중요도
- 
-- TF-DI 계산방법 
- 
-![12](https://user-images.githubusercontent.com/49008643/59378580-9b7cd500-8d8f-11e9-94cc-6b53cfc82d9e.JPG) 
- 
-  
-  
-
-
-## 분석 결과 활용
 
 - 결과를 메일로 받기
 ![222](https://user-images.githubusercontent.com/49008643/59378596-a59ed380-8d8f-11e9-9469-9e4e0a8deddd.JPG)
