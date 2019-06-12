@@ -18,8 +18,8 @@ useNIADic()
 
 #################### convert csv file to txt file
 
-setwd("C:/Users/MY/Desktop/명섭/github/DC INSIDE/DATA(5-18~)/5_28")
-datasett <- read.csv("gall__twice__05-28.csv", header = TRUE)
+setwd("C:/Users/MY/Desktop/명섭/github/DC INSIDE/DATA(5-18~)/5_19")
+datasett <- read.csv("gall__twice__05-19.csv", header = TRUE)
 datasett <- datasett[,1]
 
 write.table(datasett, "D:/12313/datasett.txt", 
